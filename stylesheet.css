@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21,21,21);
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    color: white;
+    font-size: larger;
+    overflow: hidden;
+    padding: 10px;
+    position: fixed;
+}
+li {
+    display: flex;
+    float: inline-start;
+    overflow: hidden;
+}
+li a {
+    color: white;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+}
+li a:hover {
+    color: #ED2279;
+}
+.contact_btn {
+    padding: 10px 30px;
+    color: black;
+    background-color: #ED2279;
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.contact_btn:hover {
+    color: white;
+    border: 3px solid #ED2279;
+    background: transparent;
+}
+.about-photomain img {
+    border-radius: 50%;
+    float: right;
+    margin: 150px 150px 0px 0px;
+}
+.home_desc {
+    padding: 280px 100px;
+    color: white;
+}
+.home_desc h2 {
+    font-size: 28px;
+}
+.home_desc h2 span {
+    color: #ED2279;
+    font-size: 45px;
+}
+.home_desc h1 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+.home_desc h1 span {
+    color: #ED2279;
+    font-size: 35px;
+}
+.home_desc p {
+    margin-top: 15px;
+}
+.home_desc .home_btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #ED2279;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #ED2279;
+    cursor: pointer;
+    border: none;
+}
+.about_desc {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+    padding-top: 80px;
+    color: white;
+}
+.about-photo img {
+    border-radius: 50%;
+}
+.about_section {
+    margin: 50px;
+}
+.about_section h1 {
+    font-size: 40px;
+}
+.about_section h2 {
+    margin-top: 10px;
+}
+.about_section span {
+    color: #ED2279;
+}
+.about_section p {
+    margin-top: 10px;
+}
+.about_section .skill {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+.about_section .skill a {
+    text-align: center;
+    width: 130px;
+    background: transparent;
+    border: 2px solid #ED2279;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.about_desc .skill a:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px #ED2279;
+} 
+.about_btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #ED2279;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #ED2279;
+    border: none;
+    cursor: pointer;
+}
+h1.service_section {
+    margin-top: 150px;
+    color: white;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+}
+h1.service_section span {
+    color: #ED2279;
+}
+div.card {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: justify;
+    margin: 50px;
+    color: white;
+}
+.card_layout {
+    background-color: rgb(46,46,46);
+    padding: 30px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.card_layout:hover {
+    border: 2px solid #ED2279;
+    background-color: #ED2279;
+    transform: translateY(-20px);
+}
+.card_layout i {
+    font-size: 40px;
+    color: #ED2279;
+}
+.card_layout h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card_layout p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card_layout a {
+    font-size:large;
+    color: #ED2279;
+}
+h1.port_section {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 80px;
+}
+h1.port_section span {
+    color: #ED2279;
+}
+div.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.port_card img {
+    box-shadow: 10px 10px 15px black;
+    border-radius: 10px;
+}
+.port_card:hover {
+    transform: translateY(-20px);
+}
+.port_card {
+    transition: .4s ease;
+}
+.port_card .content {
+    border-image: fill 0 linear-gradient(#0001,#ED2279);
+    position: relative;
+    bottom: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding-left: 50px;
+}
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content p {
+    width: 350px;
+}
+.content a {
+    color: rgb(255, 0, 55);
+}
+.contact_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+    gap: 10px;
+}
+.form input,textarea {
+    width: 550px;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(51,51,51);
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.form .form_btn {
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: #ED2279;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ED2279;
+    margin-left: 200px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+} 
+.form .form_btn:hover {
+    background: transparent;
+    border: 2px solid #ED2279;
+    color: white;
+}
+.contact_desc {
+    color: white;
+    margin: 20px 0px;
+}
+.contact_desc h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.contact_desc h1 span {
+    color: #ED2279;
+}
+.contact_desc .font i {
+    margin: 8px;
+    margin-top: 20px;
+    border: 2px solid #ED2279;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.contact_desc .font i:hover {
+    background-color: #ED2279;
+    box-shadow: 0px 0px 20px #ED2279;
+    transform: translateY(-10px);
+}
+.contact_desc p {
+    margin-top: 20px;
+    font-size: large;
+}
+.contact_desc p i {
+    color: #ED2279;
+    margin: 0px 10px;
+}
+.contact_desc button {
+    padding: 15px 60px;
+    font-size: 20px;
+    background-color: #ED2279;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 0px;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background-color: black;
+    color: rgb(211,211,211);
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+*::selection {
+    background-color: #db4787;
+}
